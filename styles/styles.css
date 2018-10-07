@@ -175,3 +175,36 @@ body {
   width: 50px;
   height: 50px;
   color: #3e3b4e; }
+
+.portfolio__title {
+  color: #000; }
+
+.gallery {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.gallery__link {
+  margin: 20px 0;
+  flex-basis: 48%;
+  background-color: #a49cd0;
+  z-index: 2;
+  transition-duration: .5s;
+  filter: drop-shadow(0 0 0 #3e3b4e);
+  -webkit-filter: drop-shadow(0 0 0 #3e3b4e); }
+  .gallery__link:hover {
+    filter: drop-shadow(8px 8px 7px #3e3b4e);
+    -webkit-filter: drop-shadow(8px 8px 7px #3e3b4e); }
+
+.gallery__item {
+  width: 100%;
+  height: 100%;
+  transition-duration: .5s;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%); }
+  .gallery__item:hover {
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    filter: drop-shadow(8px 8px 7px #3e3b4e);
+    -webkit-filter: drop-shadow(8px 8px 7px #3e3b4e); }
+  
